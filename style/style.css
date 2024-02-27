@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Inter;
+}
+
+.list {
+  display: flex;
+  margin: 0 auto;
+  max-width: 1385px;
+  background-color: #fff;
+  padding: 100px 25px 150px 25px;
+  justify-content: center;
+  gap: 60px;
+}
+
+.item {
+  max-width: 249px;
+  height: auto;
+}
+
+.pipe {
+  width: 249px;
+  height: 383px;
+  background-color: #d9d9d9;
+}
+
+.card__text p {
+  max-width: 249px;
+  height: auto;
+  margin-top: 60px;
+  font-size: 12px;
+  color: black;
+  text-align: justify;
+  gap: 60px;
+  overflow-wrap: break-word;
+}
